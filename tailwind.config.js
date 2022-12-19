@@ -9,6 +9,11 @@ module.exports = {
       colors: {
         backgound : '#072140',
         bluebland : '#3070B3',
+        banana : '#F7B11E',
+        darkpink : '#B55CA5',
+        redyellow : '#EA7237',
+        bluelight : "#F0F5FA",
+        bluebright : '#8F81EA',
         gradient : 'gradient(to left, rgb(37, 85, 141) 0%, #072140 70%);'
       }
     },
