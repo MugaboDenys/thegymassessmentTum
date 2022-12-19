@@ -7,8 +7,8 @@ import image4 from "../../public/image4.webp";
 
 const News = () => {
   return (
-    <div className="max-w-screen-xl mx-auto pt-16 grid grid-cols-4 gap-7">
-      <div className="col-span-2">
+    <div className="xl:max-w-screen-xl lg:max-w-screen-md mx-auto pt-16 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-5 xl:px-0 gap-7 mt-16">
+      <div className="xl:col-span-2 md:col-span-2">
         <h2 className="text-4xl font-bold ">News from TUM</h2>
         <p className="text-xl pt-7">
           News, research results and events: everything that enthuses people at
@@ -34,7 +34,7 @@ const News = () => {
         date={"12/16/2022 "}
         time={" Reading time 2 min."}
       />
-      <div className="ml-96 mt-8 flex gap-7">
+      <div className="lg:ml-96 mt-8 md:flex gap-7">
         <Newscard
           name={"Research"}
           image={image3}

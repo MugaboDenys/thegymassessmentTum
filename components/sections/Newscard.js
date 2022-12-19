@@ -5,7 +5,7 @@ const Newscard = ({ name, image, title, subtitle, paragraph, time, date }) => {
   return (
     <Link href={"/"} className="group group-hover:text-indigo-500 space-y-4">
       <div className="relative">
-        <Image className="w-80" src={image} alt="description" />
+        <Image className="xl:w-80" src={image} alt="description" />
         <h5 className="absolute bottom-0 text-xs p-1 bg-neutral-200 font-semibold text-black">
           {name}
         </h5>

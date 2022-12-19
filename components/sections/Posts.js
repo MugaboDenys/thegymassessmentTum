@@ -7,9 +7,9 @@ import image11 from "../../public/image11.jpeg";
 
 const Posts = () => {
   return (
-    <div className="max-w-[1664px] px-20 mx-auto mt-24">
-      <div className="grid grid-cols-3 gap-x-20 gap-y-10">
-        <div className="col-span-2">
+    <div className="xl:max-w-[1664px]  xl:px-20 px-5 mx-auto mt-24">
+      <div className="grid xl:grid-cols-3 gap-x-20 gap-y-10">
+        <div className="xl:col-span-2">
           <Postcard
             image={image12}
             buttonName="All episodes"

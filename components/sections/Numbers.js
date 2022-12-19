@@ -1,9 +1,9 @@
 const Numbers = () => {
     return ( 
-        <div className="max-w-[1664px] mx-auto mt-20">
+        <div className="xl:max-w-[1664px] mx-auto mt-20">
             <h2 className="text-4xl font-bold">TUM in numbers </h2>
-            <div className="mt-12 grid grid-cols-3 grid-rows-2 gap-5">
-                <div className="bg-bluebland text-white p-10 space-y-5 col-span-2 row-span-2 ">
+            <div className="mt-12 grid xl:grid-cols-3 lg:grid-cols-2 xl:grid-rows-2 grid-rows-3  gap-5">
+                <div className="bg-bluebland text-white xl:p-10 p-5 space-y-5 xl:col-span-2 xl:row-span-2 ">
                     <h2 className="text-8xl font-bold">50,000</h2>
                     <h6 className="text-3xl font-bold">Students</h6>
                 </div>

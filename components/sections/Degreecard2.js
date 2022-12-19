@@ -6,9 +6,9 @@ import image8 from "../../public/image8.webp";
 
 const Degreecard2 = () => {
   return (
-    <div className="pt-20 flex relative">
+    <div className="pt-20 xl:flex relative">
       <Image alt="" src={image7} className="w-[48rem]" />
-      <div className="bg-bluebright text-black absolute w-[50rem] top-48 right-0 px-14 py-12">
+      <div className="bg-bluebright text-black xl:absolute xl:w-[50rem] top-48 right-0 px-14 py-12">
         <h2 className="text-3xl font-bold">Schools and Research Centers</h2>
         <p>
           They form the academic foundation of TUM: Our schools and departments,

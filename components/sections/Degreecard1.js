@@ -6,9 +6,9 @@ import image8 from "../../public/image8.webp";
 
 const Degreecard1 = () => {
   return (
-    <div className="pt-20 flex relative">
-      <Image alt="" src={image6} />
-      <div className="bg-bluebland text-white absolute w-[50rem] top-40 right-0 px-14 py-12">
+    <div className="pt-20 flex flex-col relative">
+      <Image alt="" src={image6} className="object-cover" />
+      <div className="bg-bluebland text-white lg:absolute xl:w-[50rem] top-40 right-0 px-14 xl:py-12 py-5">
         <h2 className="text-3xl font-bold">
           What drives us: President Thomas F. Hofmann about TUM
         </h2>

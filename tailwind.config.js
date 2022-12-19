@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         backgound : '#072140',
         bluebland : '#3070B3',
+        darkblue : '#0A2D57',
+        darkbluefooter : '#072140',
         banana : '#F7B11E',
         darkpink : '#B55CA5',
         redyellow : '#EA7237',

@@ -8,6 +8,7 @@ import Degree from '../components/sections/Degree'
 import Numbers from '../components/sections/Numbers'
 import Posts from '../components/sections/Posts'
 import Giving from '../components/sections/Giving'
+import Prefooter from '../components/sections/Prefooter'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Degree/>
         <Posts/>
         <Giving/>
+        <Prefooter/>
       </main>
     </>
   )

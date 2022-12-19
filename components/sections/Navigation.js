@@ -5,13 +5,13 @@ import Button2 from "../UI/button2";
 
 const Navigation = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto my-10">
+    <div className="xl:max-w-screen-2xl px-5 lg:px-0 lg:max-w-screen-md mx-auto my-10">
       <h3 className="text-sm font-bold">Customized navigation</h3>
       <h2 className="text-4xl font-bold">Discover what TUM has to offer</h2>
-      <div className="flex justify-between items-center">
+      <div className="md:flex justify-between items-center">
       <div className="relative py-5 mt-5">
-        <Image src={tum} className="ml-60" alt="" />
-        <div className="absolute left-0 top-[3.30rem] border bg-white w-[21rem] px-2">
+        <Image src={tum} className="xl:ml-60 h-[22rem] w-[60rem] object-cover object-right" alt="" />
+        <div className="absolute left-5 top-[3.30rem] border bg-white w-[21rem] px-2">
           <div className="flex flex-col px-2 py-4 border-b-2">
             <h6>For: </h6>
             <Link
@@ -45,7 +45,7 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-      <div className="space-y-5 pt-5 w-1/3">
+      <div className="space-y-5 pt-5 lg:w-1/3">
         <h2 className="text-5xl font-bold">Prospective Students</h2>
         <p className="text-lg">
           Learn to bring ideas to life, discover new possibilities, work in
