@@ -11,8 +11,8 @@ const Navigation = () => {
       <div className="md:flex justify-between items-center gap-x-24 lg:gap-x-32">
       <div className="relative py-5 mt-5 lg:w-2/3 w-1/3">
         <Image src={tum} className="hidden lg:block ml-60 h-[28rem] w-[42rem] object-cover object-right" alt="" />
-        <div className="lg:hidden h-[23rem] lg:w-[23rem] w-[16rem] bg-yellow-400" alt=""></div>
-        <div className="absolute lg:left-0 left-4 top-[3.30rem] border bg-white lg:w-[21rem] w-[13rem] px-2">
+        <div className="lg:hidden h-[23rem] lg:w-[23rem] md:w-[16rem] w-[23rem] bg-yellow-400" alt=""></div>
+        <div className="absolute lg:left-0 left-4 top-[3.30rem] border bg-white lg:w-[21rem] md:w-[13rem] w-[21rem] px-2">
           <div className="flex flex-col px-2 py-4 border-b-2">
             <h6>For: </h6>
             <Link
